@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34004.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portfolio.UI", "src\Portfolio.UI\Portfolio.UI.csproj", "{D41C35D9-15D4-4465-A127-85DDD862319C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portfolio.Common", "src\Portfolio.Common\Portfolio.Common.csproj", "{6E3F1AC0-04B2-4D34-8CF4-8A1F2402C0CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D41C35D9-15D4-4465-A127-85DDD862319C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D41C35D9-15D4-4465-A127-85DDD862319C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D41C35D9-15D4-4465-A127-85DDD862319C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D41C35D9-15D4-4465-A127-85DDD862319C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3F1AC0-04B2-4D34-8CF4-8A1F2402C0CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3F1AC0-04B2-4D34-8CF4-8A1F2402C0CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3F1AC0-04B2-4D34-8CF4-8A1F2402C0CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3F1AC0-04B2-4D34-8CF4-8A1F2402C0CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {177019F3-71B7-4148-BD6E-3E701FBD6EEE}
+	EndGlobalSection
+EndGlobal
