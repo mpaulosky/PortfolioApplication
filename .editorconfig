@@ -5,10 +5,19 @@ root = true
 # All files
 [*]
 indent_style = space
-
-# yml json files
-[*.{yml,yaml,json}]
 indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+# Code files
+[*.cs]
+indent_size = 2
+indent_style = tab
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
 
 # Xml files
 [*.{csproj,props,targets,config,xml}]
@@ -55,14 +64,6 @@ dotnet_style_prefer_inferred_anonymous_type_member_names = true:suggestion
 dotnet_style_prefer_auto_properties = true:silent
 dotnet_style_prefer_conditional_expression_over_assignment = true:silent
 dotnet_style_prefer_conditional_expression_over_return = true:silent
-
-# Code files
-[*.cs]
-indent_size = 2
-indent_style = tab
-end_of_line = lf
-trim_trailing_whitespace = true
-insert_final_newline = true
 
 ###############################
 # Naming Conventions          #

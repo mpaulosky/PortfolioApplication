@@ -5,7 +5,21 @@ VisualStudioVersion = 17.8.34004.107
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portfolio.UI", "src\Portfolio.UI\Portfolio.UI.csproj", "{D41C35D9-15D4-4465-A127-85DDD862319C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portfolio.Common", "src\Portfolio.Common\Portfolio.Common.csproj", "{6E3F1AC0-04B2-4D34-8CF4-8A1F2402C0CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portfolio.Common", "src\Portfolio.Common\Portfolio.Common.csproj", "{6E3F1AC0-04B2-4D34-8CF4-8A1F2402C0CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Solution Items", "0. Solution Items", "{F1CB278F-7FA2-41DD-9D5D-5D10C263B217}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Global.json = Global.json
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Source", "1. Source", "{0568068A-50F3-4168-9AB6-7585E1ED5599}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9. Tests", "9. Tests", "{2FC29F94-2A79-4B21-9907-5D6031F94712}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +38,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D41C35D9-15D4-4465-A127-85DDD862319C} = {0568068A-50F3-4168-9AB6-7585E1ED5599}
+		{6E3F1AC0-04B2-4D34-8CF4-8A1F2402C0CC} = {0568068A-50F3-4168-9AB6-7585E1ED5599}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {177019F3-71B7-4148-BD6E-3E701FBD6EEE}
