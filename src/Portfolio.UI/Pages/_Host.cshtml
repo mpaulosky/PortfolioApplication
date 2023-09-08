@@ -1,53 +1,54 @@
 ﻿@page "/"
 @using Microsoft.AspNetCore.Components.Web
-@namespace Portfolio.Pages
+@using Portfolio.UI
+@namespace Portfolio.Pages;
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<base href="~/" />
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="css/fontawesome.css" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<base href="~/"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/fontawesome.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"/>
 	<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
-	<link rel="icon" type="image/png" href="favicon.png" />
-	<component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
+	      rel="stylesheet">
+	<link rel="icon" type="image/png" href="favicon.png"/>
+	<component type="typeof(HeadOutlet)" render-mode="ServerPrerendered"/>
 </head>
 
 <body>
-	<component type="typeof(App)" render-mode="ServerPrerendered" />
+<component type="typeof(App)" render-mode="ServerPrerendered"/>
 
-	<div id="blazor-error-ui">
-		<environment include="Staging,Production">
-			An error has occurred. This application may no longer respond until reloaded.
-		</environment>
-		<environment include="Development">
-			An unhandled exception has occurred. See browser dev tools for details.
-		</environment>
-		<a href="" class="reload">Reload</a>
-		<a class="dismiss">🗙</a>
-	</div>
+<div id="blazor-error-ui">
+	<environment include="Staging,Production">
+		An error has occurred. This application may no longer respond until reloaded.
+	</environment>
+	<environment include="Development">
+		An unhandled exception has occurred. See browser dev tools for details.
+	</environment>
+	<a href="" class="reload">Reload</a>
+	<a class="dismiss">🗙</a>
+</div>
 
-	<script src="_framework/blazor.server.js"></script>
-	<script src="lib/glightbox/js/glightbox.min.js"></script>
+<script src="_framework/blazor.server.js"></script>
+<script src="lib/glightbox/js/glightbox.min.js"></script>
 
-	<script type="text/javascript">
-		const lightbox = GLightbox({
-			'touchNavigation': true,
-			'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
-			'type': 'video',
-			'source': 'youtube', //vimeo, youtube or local
-			'width': 900,
-			'autoPlayVideos': 'true'
-		});
-	</script>
-	<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+	const lightbox = GLightbox({
+		'touchNavigation': true,
+		'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
+		'type': 'video',
+		'source': 'youtube', //vimeo, youtube or local
+		'width': 900,
+		'autoPlayVideos': 'true'
+	});
+</script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

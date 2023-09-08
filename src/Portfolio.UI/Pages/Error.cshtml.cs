@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Copyright (c) 2023. All rights reserved.
 // File Name :     Error.cshtml.cs
 // Company :       mpaulosky
@@ -20,10 +20,6 @@ public class ErrorModel : PageModel
 	public string? RequestId { get; set; }
 
 	public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
-
-	public ErrorModel()
-	{
-	}
 
 	public void OnGet()
 	{
